@@ -1,4 +1,4 @@
-const API_KEY = "bc7787f62318cf3f81b14f2c49803d3c";
+const API_KEY = "key";
 
 const request = {
     fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`,
@@ -12,9 +12,3 @@ const request = {
 }
 
 export default request;
-
-
-// 
-// https://api.themoviedb.org/3/movie/550?api_key=bc7787f62318cf3f81b14f2c49803d3c
-
-// https://netflix-clone-2d410.web.app/
